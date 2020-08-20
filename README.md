@@ -9,4 +9,4 @@ git命令测试用
 * git log      (查看提交历史)
 * git remote(列出远程服务器列表)
 * git remote add <name> <url> (添加一个新的远程git仓库)
-* git mv 
+* git mv (-f)(重命名/删除文件)
