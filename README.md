@@ -10,4 +10,5 @@ git命令测试用
 * git remote(列出远程服务器列表)
 * git remote add <name> <url> (添加一个新的远程git仓库)
 * git mv (-f)(重命名/删除文件)
-* git tag -a <tag_name> -m <commit message>(添加标签)
+* git tag -a <tag_name> -m <commit message>(添加标签注释信息) 
+* git push <origin> <tag_name>
