@@ -13,3 +13,4 @@ git命令测试用
 * git tag -a \<tag_name> -m \<commit message> <后期提交标签，加上指定的校验和(部分)就可以>(添加标签注释信息) 
      git push \<remoteGitName> <tag_name>
 * git config --global alias.<别名> <基本命令> (全局设置别名)
+* gitlab使用
