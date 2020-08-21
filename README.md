@@ -28,5 +28,17 @@
 * **git pull origin master --allow-unrelated-histories**
 * **git pull --rebase origin master**(常用，pull过程中遇见产生冲突的文件时，先修改或者删除相应文件使冲突消弭，然后git rebase --continue,随后正常push)
 * [参考博客](https://www.cnblogs.com/kungfupan/p/9967531.html)
->> github和gitlab自动生成的README.md文件会产生conflict
->>![](../../conflict.png )
+>github和gitlab自动生成的README.md文件会产生conflict
+>>` CONFLICT (add/add): Merge conflict in README.md
+Auto-merging README.md
+error: Failed to merge in the changes.
+Patch failed at 0001 Initial commit
+hint: Use 'git am --show-current-patch' to see the failed patch
+Resolve all conflicts manually, mark them as resolved with
+"git add/rm <conflicted_files>", then run "git rebase --continue".
+You can instead skip this commit: run "git rebase --skip".
+To abort and get back to the state before "git rebase", run "git rebase --abort".
+fujinquan@fujinquandeMacBook-Pro test % git rebase --continue
+README.md: needs merge
+You must edit all merge conflicts and then
+mark them as resolved using git add `
