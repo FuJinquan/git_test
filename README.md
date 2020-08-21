@@ -22,6 +22,8 @@
 * **git checkout** (切换到所选分支)
 * **git checkout -b \<newBranchName>**(合并上面两个命令)
 * **git branch -d**(删除所选分支)
+* **git branch --merged**(查看哪些分支已经合并到当前分支,在分支列表中，分支名字前没有 * 号的分支通常可以使用 **git branch -d** 删除掉)
+* **git branch --no-merged** 
 
 <h4 id='2'>2.本地同一个项目同时提交到github和gitlab上</h4>
 
