@@ -13,6 +13,7 @@ git命令测试用
 * git tag -a \<tag_name> -m \<commit message> <后期提交标签，加上指定的校验和(部分)就可以>(添加标签注释信息) 
      git push \<remoteGitName> <tag_name>
 * git config --global alias.<别名> <基本命令> (全局设置别名)
+
 * gitlab使用
 * git branch(添加/查看分支)
 * git checkout (切换到所选分支)
@@ -20,3 +21,4 @@ git命令测试用
 * git branch -d(删除所选分支)
 ## 2.本地同一个项目同时提交到github和gitlab上
 * git pull origin master --allow-unrelated-histories
+* git pull --rebase origin master(常用，pull过程中遇见产生冲突的文件时，先修改或者删除相应文件使冲突消弭，然后git rebase --continue,随后正常push)
