@@ -4,7 +4,8 @@
 * [1.基本命令](#1)
 * [2.本地同一个项目同时提交到github和gitlab上](#2)
 
-## 1.基本命令
+<h4 id='1'>1.基本命令</h4>
+
 * **git add**
 * **git status (-s)**
 * **git diff**
@@ -21,7 +22,9 @@
 * **git checkout** (切换到所选分支)
 * **git checkout -b \<newBranchName>**(合并上面两个命令)
 * **git branch -d**(删除所选分支)
-## 2.本地同一个项目同时提交到github和gitlab上
+
+<h4 id='2'>2.本地同一个项目同时提交到github和gitlab上</h4>
+
 * **git pull origin master --allow-unrelated-histories**
 * **git pull --rebase origin master**(常用，pull过程中遇见产生冲突的文件时，先修改或者删除相应文件使冲突消弭，然后git rebase --continue,随后正常push)
 >> github和gitlab自动生成的README.md文件、证书文件和.gitignore文件会产生conflict
