@@ -14,5 +14,9 @@ git命令测试用
      git push \<remoteGitName> <tag_name>
 * git config --global alias.<别名> <基本命令> (全局设置别名)
 * gitlab使用
+* git branch(添加/查看分支)
+* git checkout (切换到所选分支)
+* git checkout -b \<newBranchName>(合并上面两个命令)
+* git branch -d(删除所选分支)
 ## 2.本地同一个项目同时提交到github和gitlab上
 * git pull origin master --allow-unrelated-histories
