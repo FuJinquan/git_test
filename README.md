@@ -31,7 +31,7 @@
 >github和gitlab自动生成的README.md文件会产生conflict
 >>` CONFLICT (add/add): Merge conflict in README.md
 Auto-merging README.md
-error: Failed to merge in the changes.
+&#160;error: Failed to merge in the changes.
 Patch failed at 0001 Initial commit
 hint: Use 'git am --show-current-patch' to see the failed patch
 Resolve all conflicts manually, mark them as resolved with
