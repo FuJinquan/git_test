@@ -1,6 +1,6 @@
 # git_test
 git命令测试用
-## 基本命令
+## 1.基本命令
 * git add
 * git status (-s)
 * git diff
@@ -14,3 +14,5 @@ git命令测试用
      git push \<remoteGitName> <tag_name>
 * git config --global alias.<别名> <基本命令> (全局设置别名)
 * gitlab使用
+## 2.本地同一个项目同时提交到github和gitlab上
+* git pull origin master --allow-unrelated-histories
