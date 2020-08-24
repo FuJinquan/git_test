@@ -31,7 +31,7 @@
 * **git pull origin master --allow-unrelated-histories**
 * **git pull --rebase origin master**(常用，pull过程中遇见产生冲突的文件时，先修改或者删除相应文件使冲突消弭，然后git rebase --continue,随后正常push)
 * [参考博客](https://www.cnblogs.com/kungfupan/p/9967531.html)
->github和gitlab自动生成的README.md文件会产生conflict
+>github和gitlab自动生成的README.md文件,LICENSE文件以及.gitignore文件会产生conflict
 >>``CONFLICT (add/add): Merge conflict in README.md
 Auto-merging README.md
 error: Failed to merge in the changes.
